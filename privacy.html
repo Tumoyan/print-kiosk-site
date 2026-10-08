@@ -24,11 +24,11 @@
     </ul>
 
     <h2>2. Printing by email and Gmail access</h2>
-    <p>Email printing uses a Gmail mailbox owned by the kiosk operator. The kiosk software accesses <b>only this mailbox</b> through the Gmail API with read-only permission (<code>gmail.readonly</code>). It never accesses your own email account.</p>
+    <p>Email printing uses a Gmail mailbox owned by the kiosk operator. The kiosk software accesses <b>only this mailbox</b> through the Gmail API with the <code>gmail.modify</code> permission. This permission is used only to read messages sent to the kiosk and to move processed messages to the mailbox trash; the software does not send email and does not change other messages. It never accesses your own email account.</p>
     <ul>
       <li>When you start email printing, the kiosk shows a one-time address with a short code. The software looks only for messages that contain this code in the recipient address or subject and that arrived after you started; it shows you only the attachments of those messages.</li>
       <li>From such messages it reads the sender address (shown on the screen partially masked), the time received, and the attachments. Message text is not used.</li>
-      <li>Messages remain in the operator's mailbox after printing and are deleted by the operator manually, at least once a week.</li>
+      <li>After printing, messages stay in the operator's mailbox for at most 7 days and are then moved to the trash; Gmail permanently deletes messages from the trash after 30 days.</li>
     </ul>
     <p>Print Kiosk’s use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Data received from Gmail is used only to show and print the documents you sent to the kiosk; it is not sold, not used for advertising, not used to train AI models, and not shared with anyone except as needed to provide printing.</p>
 
