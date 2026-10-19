@@ -53,3 +53,75 @@ footer {
   border-top: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
   color: var(--muted);
 }
+
+/* Визитка (index*.html): шапка с логотипом, карточки услуг, шаги, цены. Цвет бренда — жёлтый из логотипа. */
+:root {
+  --brand: #f2d35b;
+  --card: #ffffff;
+  --line: color-mix(in srgb, var(--ink) 12%, transparent);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card: #1f2329;
+  }
+}
+.site-header {
+  max-width: 720px;
+  margin: 24px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.brand {
+  display: block;
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+}
+.langs {
+  font-size: 0.95em;
+  color: var(--muted);
+}
+.site-header + main {
+  margin-top: 24px;
+}
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+.card {
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--brand);
+}
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 1.05em;
+}
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+.steps li + li {
+  margin-top: 6px;
+}
+.prices {
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+.prices li + li {
+  margin-top: 4px;
+}
+.contacts {
+  line-height: 1.9;
+}
