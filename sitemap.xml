@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://itpich.am/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/index-en.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/index-ru.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/index-en.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/index-en.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/index-en.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/privacy-hy.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/privacy-hy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/privacy-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/privacy-ru.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/privacy-hy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/privacy-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/privacy.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/privacy-hy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/privacy-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/privacy.html"/>
+  </url>
+</urlset>
