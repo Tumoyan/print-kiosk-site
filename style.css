@@ -125,3 +125,15 @@ footer {
 .contacts {
   line-height: 1.9;
 }
+.promo {
+  margin: 24px auto 8px;
+  width: min(100%, 320px);
+}
+.promo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: #f3eee3;
+}
