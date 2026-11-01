@@ -43,4 +43,25 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/privacy-ru.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/privacy.html"/>
   </url>
+  <url>
+    <loc>https://itpich.am/terms-hy.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/terms-hy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/terms-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/terms.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/terms-ru.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/terms-hy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/terms-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/terms.html"/>
+  </url>
+  <url>
+    <loc>https://itpich.am/terms.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://itpich.am/terms-hy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itpich.am/terms-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itpich.am/terms.html"/>
+  </url>
 </urlset>
